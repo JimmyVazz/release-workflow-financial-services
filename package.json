@@ -1,0 +1,23 @@
+{
+  "name": "release-workflow-financial-services",
+  "version": "1.0.0",
+  "description": "Release workflow",
+  "keywords": [
+    "release"
+  ],
+  "homepage": "https://github.com/JimmyVazz/release-workflow-financial-services#readme",
+  "bugs": {
+    "url": "https://github.com/JimmyVazz/release-workflow-financial-services/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimmyVazz/release-workflow-financial-services.git"
+  },
+  "license": "MIT",
+  "author": "JimmyVazz",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  }
+}
