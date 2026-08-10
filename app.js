@@ -1,15 +1,22 @@
-const orders = [
-  { id: 1, productId: 1, userId: 1 }
+const users = [
+  { id: 1, name: "Jimmy" }
 ];
 
+function getUsers() {
+  return users.filter(user => user.name);
+}
 
 const products = [
   { id: 1, name: "Laptop" }
 ];
 
-
-const users = [
-  { id: 1, name: "Jimmy" }
+const orders = [
+  { id: 1, productId: 1, userId: 1 }
 ];
 
-module.exports = { users, products, orders };
+module.exports = {
+  users,
+  products,
+  orders,
+  getUsers
+};
