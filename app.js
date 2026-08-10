@@ -5,11 +5,11 @@ const users = [
 function getUsers() {
   return users.filter(user => user.name);
 }
-
+//products
 const products = [
   { id: 1, name: "Laptop" }
 ];
-
+//orders
 const orders = [
   { id: 1, productId: 1, userId: 1 }
 ];
